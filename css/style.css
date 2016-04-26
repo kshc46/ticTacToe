@@ -1,0 +1,63 @@
+body {
+  background-color: #555;
+}
+
+/* styling of the gameboard */
+.gameBoard {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* styling and positioning of the top row */
+.top {
+  width: 400px;
+  margin: auto;
+  margin-top: -376px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* styling and positioning of the center row */
+.center {
+  width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* styling and positioning of the bottom row */
+.bottom {
+  width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* positioning of the left column */
+.left {
+  width: 50px;
+  margin: 0px 0px 0px 48px;
+}
+
+/* positioning of the middle column */
+.middle {
+  width: 50px;
+  margin: 0px 0px 0px 80px;
+}
+
+/* positioning of the right column */
+.right {
+  width: 50px;
+  margin: 0px 0px 0px 75px;
+}
+
+/* positioning of the buttons */
+#buttons {
+  margin-top: 50px;
+}

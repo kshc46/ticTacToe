@@ -1,0 +1,50 @@
+<div class = "ticTacToeContainer">
+  <!-- initialize with the image of the tic tac toe board -->
+  <img class="gameBoard" src="http://too-much-time.com/wp-content/uploads/2014/01/xo-tic-tac-toe-valentines-game-free-printable.jpg" alt="Tic Tac Toe Board" usemap="clickArea">
+
+  <!-- configure the picture area with clickable areas -->
+  <map name="clickArea">
+    <area shape="rect" coords="5,125,130,245" href="#TL" alt="Top Left" id="topLeftArea">
+    <area shape="rect" coords="137,125,264,245" href="#TM" alt="Top Middle" id="topMiddleArea">
+    <area shape="rect" coords="272,125,390,245" href="#TR" alt="Top Right" id="topRightArea">
+    <area shape="rect" coords="5,250,130,380" href="#ML" alt="Middle Left" id="middleLeftArea">
+    <area shape="rect" coords="137,250,264,380" href="#MM" alt="Middle Middle" id="middleMiddleArea">
+    <area shape="rect" coords="272,250,390,380" href="#MR" alt="Middle Right" id="middleRightArea">
+    <area shape="rect" coords="5,385,130,510" href="#BL" alt="Bottom Left" id="bottomLeftArea">
+    <area shape="rect" coords="137,385,264,510" href="#BM" alt="Bottom Middle" id="bottomMiddleArea">
+    <area shape="rect" coords="272,385,390,510" href="#BR" alt="Bottom Right" id="bottomRightArea">
+  </map>
+</div>
+
+<!-- top row of images -->
+<div class ="top">
+  <img class="left" id = "topLeft" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter X">
+  
+  <img class="middle" id = "topMiddle" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+  
+  <img class="right" id = "topRight" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+</div>
+  
+<!-- center row of images -->
+<div class ="center">
+  <img class="left" id = "middleLeft" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter X">
+  
+  <img class="middle" id = "middleMiddle" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+  
+  <img class="right" id = "middleRight" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+</div>
+  
+<!-- bottom row of images -->
+<div class ="bottom">
+  <img class="left" id = "bottomLeft" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter X">
+  
+  <img class="middle" id = "bottomMiddle" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+  
+  <img class="right" id = "bottomRight" src="http://weknowyourdreamz.com/images/white/white-04.jpg" alt="letter O">
+</div>
+  
+<!-- simple buttons for x/o switch and reset functionality -->
+<div class = "col-sm-4 col-sm-push-6" id = "buttons">
+  <button type="button" class="btn btn-primary" id = "switch">Switch to O</button>
+  <button type="button" class="btn btn-primary" id = "reset">Reset</button>
+</div>
